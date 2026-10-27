@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite the methods manuscript and specify the version when using this artifact."
+title: "Exact Worst-Case Risk Certificates for Stratified Bernoulli Estimation"
+authors:
+  - name: "AnimaFoundry Research"
+version: 1.0.0
+date-released: 2026-10-27
+license: MIT
+type: software
+abstract: "Specialized rational risk computation with independently checkable upper/lower certificates; synthetic verification and explicit prior-art boundaries."
+preferred-citation:
+  type: report
+  title: "Exact Worst-Case Risk Certificates for Stratified Bernoulli Estimation: A Rational Breakpoint Method with Independently Checkable Witnesses"
+  authors:
+    - name: "AnimaFoundry Research"
+  year: 2026
+  month: 10
+  version: 1.0.0

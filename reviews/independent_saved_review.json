@@ -1,0 +1,73 @@
+{
+  "audited_utc": "2026-10-27T02:11:18.029342+00:00",
+  "checker_platform": "Windows-11-10.0.26300-SP0",
+  "checker_runtime": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+  "checker_sha256": "9a2eded3e35e7a9b35b9edad7e4feb080e6e16f8248f3e871ed5a1c83af3893e",
+  "deadline_semantics": "600 seconds checked between cases; not a hard mid-method limit",
+  "estimator_moment_checks": 148,
+  "evidence_limits": [
+    "Saved upper/lower certificates are independently verified; no solver is rerun.",
+    "Saved reference, grid and full-outcome values are compared but not re-enumerated.",
+    "Timing ratios are recalculated from saved durations, not independently remeasured.",
+    "Reported solver calls and dependency identities are checked for consistency, not attested execution.",
+    "Local hashes and saved timestamps are integrity/consistency records, not external timestamp attestations.",
+    "No statistical deployment, hardware, patent novelty or model-performance claim follows from this replay."
+  ],
+  "evidence_sha256": {
+    "freeze.json": "47c98d89cc1302046839c55b44a50bea8823cbbbe76e27185190e2a1abe036d1",
+    "freeze.preexecution.json": "fa61cad7b4cc9d7d357099f8c7e1220ea07d3110d6b625e1f80ef40fcfee2cee",
+    "results/RUN_GUARD.json": "55ed61e81cb0b1c5c82cb327e39599850b67578edca794df7927b946a5b7db50",
+    "results/receipt.json": "e235be7e41c1a7cc1cc9d58b15d227c8daaa092af067a1dbdad542bf4f6de910",
+    "results/rows.jsonl": "5308caef42a0471d2461c266024a13b977cac300c5b4610db45dc2f59290e5e5",
+    "results/summary.json": "2473becc41fc63177b0ea61cf3a6fa5108fa28bd11b14e8c3df2636153b12c1c",
+    "synthetic_inputs.json": "54efd32a6cd0000906ccf36b393f0cc4f2f6682c3b52ff104cbab9e7011decbb"
+  },
+  "frozen_files_unchanged": 11,
+  "grid_understatement_case_ids": [
+    "small-011",
+    "small-028",
+    "small-032",
+    "small-034",
+    "small-036",
+    "small-056"
+  ],
+  "new_binomial_outcome_enumerations": 0,
+  "new_grid_searches": 0,
+  "new_reference_enumerations": 0,
+  "new_solver_calls": 0,
+  "post_run_checker": true,
+  "preexecution_changed_files": [
+    "run_validation.py"
+  ],
+  "recomputed_summary": {
+    "certificates_valid": 148,
+    "completed_cases": 148,
+    "conic_actual_calls": 54,
+    "conic_cases": 56,
+    "conic_max_abs_risk_error": 1.2387751519016277e-09,
+    "conic_numerically_accepted": 56,
+    "conic_risk_agreements_1e_7": true,
+    "correctness_gate": true,
+    "expectation_matches": 16,
+    "grid_cases": 64,
+    "grid_understatements": 6,
+    "maximum_certificate_rational_bits": 41,
+    "operational_value_gate": true,
+    "reference_matches": 128,
+    "shared_median_time_ratio": 29.877619844869855,
+    "shared_time_ratios": [
+      41.5426954599467,
+      26.68207977982028,
+      30.69290741276303,
+      47.59489593079466,
+      32.65576763871278,
+      20.896646833307727,
+      29.062332276976683,
+      27.539299824161777
+    ],
+    "status": "complete"
+  },
+  "recorded_run_wall_seconds": 4.876567399944179,
+  "saved_chronology_consistent": true,
+  "status": "PASS"
+}

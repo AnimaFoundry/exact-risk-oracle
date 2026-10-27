@@ -1,0 +1,29 @@
+{
+  "certificates_valid": 148,
+  "completed_cases": 148,
+  "conic_actual_calls": 54,
+  "conic_cases": 56,
+  "conic_max_abs_risk_error": 1.2387751519016277e-09,
+  "conic_numerically_accepted": 56,
+  "conic_risk_agreements_1e_7": true,
+  "correctness_gate": true,
+  "expectation_matches": 16,
+  "grid_cases": 64,
+  "grid_understatements": 6,
+  "interpretation": "One deterministic software-validation suite; no statistical or patent-novelty claim",
+  "maximum_certificate_rational_bits": 41,
+  "operational_value_gate": true,
+  "reference_matches": 128,
+  "shared_median_time_ratio": 29.877619844869855,
+  "shared_time_ratios": [
+    41.5426954599467,
+    26.68207977982028,
+    30.69290741276303,
+    47.59489593079466,
+    32.65576763871278,
+    20.896646833307727,
+    29.062332276976683,
+    27.539299824161777
+  ],
+  "status": "complete"
+}

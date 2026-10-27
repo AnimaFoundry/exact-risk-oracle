@@ -1,0 +1,21 @@
+name: Validate exact risk certificates
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s tests -v
+      - run: python verify_saved.py
+      - run: python -m pip install -r requirements-render.txt
+      - run: python build_paper.py --output build/rebuilt.pdf
+      - name: Compare deterministic manuscript bytes
+        run: python -c "from pathlib import Path; assert Path('paper.pdf').read_bytes() == Path('build/rebuilt.pdf').read_bytes()"
