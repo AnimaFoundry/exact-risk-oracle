@@ -1,0 +1,12 @@
+{
+  "budget": {
+    "between_case_seconds": 60,
+    "direct_outcome_terms": 170,
+    "external_inference_usd": 0,
+    "face_reference_calls": 2,
+    "model_calls": 0,
+    "oracle_calls": 2
+  },
+  "protocol_sha256": "4cdbc589045d0c7a85e6754c272cfb077fbc96dc1c60efd77b2e18d7dc1755ad",
+  "started_utc": "2026-10-27T06:57:23.714817Z"
+}

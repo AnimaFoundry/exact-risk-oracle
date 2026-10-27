@@ -1,5 +1,27 @@
 # Sources, rights, and contribution boundaries
 
+## v1.1.0 sampling-decision companion
+
+New `decision/` source, calendar generator, reusable conic formulation, scoring,
+saved-evidence checker, tests and reports were written for this study. The 48
+scenarios and 753 feasible allocations are original synthetic mathematical inputs.
+No dependency is added or vendored beyond the already listed optional benchmark
+packages. The v1.0.0 paper, frozen sources, raw outcomes and tags remain unchanged.
+
+Two separate teaching examples are attributed to Will Fithian's Berkeley Stat
+210A reader, licensed CC BY 4.0 at
+https://github.com/berkeley-stat210a/fall-2026/blob/88ca90db1c5fb7d337890a3a59d274d719c551d9/license.qmd .
+The current source is `reader/estimation.qmd` at that commit. We wrote our own
+algebra, exact outcome enumeration and certificate checks; no lecture source,
+paragraph, plot or implementation was copied into the MIT package. A denominator
+erratum was reported at https://github.com/berkeley-stat210a/fall-2026/issues/1 .
+Reporting is not maintainer acceptance or institutional endorsement.
+
+The existing statistical and optimization antecedents below continue to apply.
+The new study establishes one finite allocation difference versus a coarse grid,
+not a new estimator, universal speedup, new patent feature or broad deployment
+benefit. No new FTO or novelty claim is made.
+
 Review date: 2026-10-27. This record concerns the original source package, its
 synthetic examples, and the locally installed dependencies used for comparison.
 It is a source and license inventory, not a freedom-to-operate opinion.

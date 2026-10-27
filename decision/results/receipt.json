@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "cffi": "2.1.1",
+    "clarabel": "0.11.1",
+    "cvxpy": "1.7.3",
+    "numpy": "2.5.4",
+    "osqp": "1.1.3",
+    "scipy": "1.18.1",
+    "scs": "3.3.1"
+  },
+  "external_api_usd": 0,
+  "failure": null,
+  "finished_utc": "2026-10-27T06:57:58.752425Z",
+  "fixture_sha256": "6d6b90b55ad3fcbd40d77d9fc4651c0f7a5134497ebb3bdb32a799180d5e162a",
+  "freeze_sha256": "6755efb2e2fb7a1b4566ac4594d5590921992f7739d21c923668d6974cf9c807",
+  "model_calls": 0,
+  "platform": "Windows-11-10.0.26300-SP0",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "rows_sha256": "cc1f257fe51132e9fae36b1f9569b265d2af9bac6d6f572c2c1af1a328609901",
+  "setups_sha256": "71dc3964f16a6bef9ab10209a4b78f438dd36359bb0091d01fd570a5ab3413bf",
+  "started_utc": "2026-10-27T06:57:43.863842Z",
+  "status": "complete",
+  "wall_seconds": 14.41067880007904
+}

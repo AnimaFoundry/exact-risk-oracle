@@ -1,0 +1,194 @@
+{
+  "decision-001": {
+    "build_seconds": 0.0008139999117702246,
+    "is_dpp": true
+  },
+  "decision-002": {
+    "build_seconds": 0.0003208999987691641,
+    "is_dpp": true
+  },
+  "decision-003": {
+    "build_seconds": 0.0005256000440567732,
+    "is_dpp": true
+  },
+  "decision-004": {
+    "build_seconds": 0.000305800000205636,
+    "is_dpp": true
+  },
+  "decision-005": {
+    "build_seconds": 0.0003261999227106571,
+    "is_dpp": true
+  },
+  "decision-006": {
+    "build_seconds": 0.00029610004276037216,
+    "is_dpp": true
+  },
+  "decision-007": {
+    "build_seconds": 0.0003315999638289213,
+    "is_dpp": true
+  },
+  "decision-008": {
+    "build_seconds": 0.0012021000729873776,
+    "is_dpp": true
+  },
+  "decision-009": {
+    "build_seconds": 0.00039870000910013914,
+    "is_dpp": true
+  },
+  "decision-010": {
+    "build_seconds": 0.0003002999583259225,
+    "is_dpp": true
+  },
+  "decision-011": {
+    "build_seconds": 0.00036230008117854595,
+    "is_dpp": true
+  },
+  "decision-012": {
+    "build_seconds": 0.0003046999918296933,
+    "is_dpp": true
+  },
+  "decision-013": {
+    "build_seconds": 0.0005868999287486076,
+    "is_dpp": true
+  },
+  "decision-014": {
+    "build_seconds": 0.0003108999226242304,
+    "is_dpp": true
+  },
+  "decision-015": {
+    "build_seconds": 0.0003074000123888254,
+    "is_dpp": true
+  },
+  "decision-016": {
+    "build_seconds": 0.0003170999698340893,
+    "is_dpp": true
+  },
+  "decision-017": {
+    "build_seconds": 0.00041470001451671124,
+    "is_dpp": true
+  },
+  "decision-018": {
+    "build_seconds": 0.00035260000731796026,
+    "is_dpp": true
+  },
+  "decision-019": {
+    "build_seconds": 0.0006643999367952347,
+    "is_dpp": true
+  },
+  "decision-020": {
+    "build_seconds": 0.0006660000653937459,
+    "is_dpp": true
+  },
+  "decision-021": {
+    "build_seconds": 0.0013361000455915928,
+    "is_dpp": true
+  },
+  "decision-022": {
+    "build_seconds": 0.0005788999842479825,
+    "is_dpp": true
+  },
+  "decision-023": {
+    "build_seconds": 0.0005879999371245503,
+    "is_dpp": true
+  },
+  "decision-024": {
+    "build_seconds": 0.0008234999841079116,
+    "is_dpp": true
+  },
+  "decision-025": {
+    "build_seconds": 0.0006198999471962452,
+    "is_dpp": true
+  },
+  "decision-026": {
+    "build_seconds": 0.0006982999620959163,
+    "is_dpp": true
+  },
+  "decision-027": {
+    "build_seconds": 0.0013831999385729432,
+    "is_dpp": true
+  },
+  "decision-028": {
+    "build_seconds": 0.0005857999203726649,
+    "is_dpp": true
+  },
+  "decision-029": {
+    "build_seconds": 0.0008413000032305717,
+    "is_dpp": true
+  },
+  "decision-030": {
+    "build_seconds": 0.001521300058811903,
+    "is_dpp": true
+  },
+  "decision-031": {
+    "build_seconds": 0.0012029000790789723,
+    "is_dpp": true
+  },
+  "decision-032": {
+    "build_seconds": 0.0008882998954504728,
+    "is_dpp": true
+  },
+  "decision-033": {
+    "build_seconds": 0.0007546000415459275,
+    "is_dpp": true
+  },
+  "decision-034": {
+    "build_seconds": 0.0005171999800950289,
+    "is_dpp": true
+  },
+  "decision-035": {
+    "build_seconds": 0.0007740000728517771,
+    "is_dpp": true
+  },
+  "decision-036": {
+    "build_seconds": 0.001331100007519126,
+    "is_dpp": true
+  },
+  "decision-037": {
+    "build_seconds": 0.0010014999425038695,
+    "is_dpp": true
+  },
+  "decision-038": {
+    "build_seconds": 0.000934199895709753,
+    "is_dpp": true
+  },
+  "decision-039": {
+    "build_seconds": 0.0007609999738633633,
+    "is_dpp": true
+  },
+  "decision-040": {
+    "build_seconds": 0.0008611999219283462,
+    "is_dpp": true
+  },
+  "decision-041": {
+    "build_seconds": 0.0016611999599263072,
+    "is_dpp": true
+  },
+  "decision-042": {
+    "build_seconds": 0.0006537000881507993,
+    "is_dpp": true
+  },
+  "decision-043": {
+    "build_seconds": 0.0008341999491676688,
+    "is_dpp": true
+  },
+  "decision-044": {
+    "build_seconds": 0.0019301999127492309,
+    "is_dpp": true
+  },
+  "decision-045": {
+    "build_seconds": 0.0016178000951185822,
+    "is_dpp": true
+  },
+  "decision-046": {
+    "build_seconds": 0.000672199996188283,
+    "is_dpp": true
+  },
+  "decision-047": {
+    "build_seconds": 0.0016722999280318618,
+    "is_dpp": true
+  },
+  "decision-048": {
+    "build_seconds": 0.00153629994019866,
+    "is_dpp": true
+  }
+}

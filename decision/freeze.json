@@ -1,0 +1,38 @@
+{
+  "between_call_wall_seconds": 900,
+  "calls_per_method": 2259,
+  "created_utc": "2026-10-27T06:57:28.999651Z",
+  "dependencies": {
+    "cffi": "2.1.1",
+    "clarabel": "0.11.1",
+    "cvxpy": "1.7.3",
+    "numpy": "2.5.4",
+    "osqp": "1.1.3",
+    "scipy": "1.18.1",
+    "scs": "3.3.1"
+  },
+  "external_api_usd": 0,
+  "files": {
+    "check_certificate.py": "8c3a8166065597fff9c9dded2e3d573cc44257fe6d2c2a29474e539cfc892139",
+    "decision/PROTOCOL.md": "30d8f89e0f218fb050598f939bd7e3d56922e1e5383ac903c6f461f6990d4513",
+    "decision/__init__.py": "fa8715d9d7a47ad36ceb77defa631679f816f7dd5e39d19b715baf35b3e61716",
+    "decision/design.py": "3e345f53482101bd8edcac525bec76acac2cfe4c36df15fd3f956c95d10180db",
+    "decision/inputs.json": "6d6b90b55ad3fcbd40d77d9fc4651c0f7a5134497ebb3bdb32a799180d5e162a",
+    "decision/make_inputs.py": "77b546c5aa2b5c1815f29624b13b32e6e02cdab7af075fe0ac244cc3880d2fc0",
+    "decision/reusable_conic.py": "9615a496ed67293e3bf345a0c2c01189ace6f0fe0a4df01894b0d8b9ab672b1e",
+    "decision/run.py": "84a7d9398e833a7be72a5a18e17b0deab978a6f700bd1a5022cef48c91e022ce",
+    "decision/scoring.py": "5df0f387939b5eb3fe6bd8219ae4778d31bddb43345c38df22724c916decbeb8",
+    "oracle.py": "aa06f55f4ca3360747e753295b3c3718cd2cd119db1416dd6f9d3431a5761a6a",
+    "reference.py": "2d0b29beccfbaffb5b30cb146ffb37babba038bca3f07962a4163aa26d60ea7a",
+    "requirements-benchmark.txt": "ffef47b66f654c65c5f5abeba2ac23a36ae0c15e45f2cf64e0bb77cc70d49dbb",
+    "tests/test_decision_conic.py": "9ced6ad5f7e40902cb396041bdc02c27f6e00e826f2263b3b6434db7ae7a2e37",
+    "tests/test_decision_design.py": "8eb21f985292f4e5e78f5d8f23f7c8ec825dafa6cfb40264f3ff633846dfaa69",
+    "tests/test_decision_scoring.py": "69ed9b9062a06c955f323393499066b79a13e6658ca69d9870600a4946c2723c"
+  },
+  "max_calls_per_method": 4032,
+  "max_reference_calls": 1344,
+  "model_calls": 0,
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "scenarios": 48,
+  "unique_allocations": 753
+}

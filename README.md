@@ -8,6 +8,21 @@ This is a specialized implementation and research artifact, not a claim of a new
 estimator, first-ever polynomial tractability, patent novelty, or deployment validation.
 See [source attribution and rights](SOURCE_AND_RIGHTS.md).
 
+## v1.1.0 decision-study companion
+
+The [new frozen sampling-decision study](decision/REPORT.md) compares a coarse
+grid, exact certificates and a reusable DPP conic program on 48 original synthetic
+scenarios / 753 feasible allocations. One scenario improves the selected risk by
+1.7883% versus the grid; the other 47 show no decision gain. The successful conic
+baseline chooses the same improved allocation. All 753 exact reference checks pass.
+Twelve `optimal_inaccurate` records fail the strict conic-status rule despite small
+numerical error; the full comparison/speed-claim gate is **not passed**.
+Descriptive warm timings are not a new universal speed claim.
+
+The v1.0.0 manuscript/PDF, old frozen sources and original results remain unchanged.
+See [public-problem screening](decision/PUBLIC_SCREEN.md) and
+[actual external submission status](decision/EXTERNAL_FEEDBACK.md).
+
 ## What it does
 
 For nonnegative rational vectors `d,v`, solve
@@ -31,7 +46,7 @@ assert verify(d, v, answer.to_dict())
 print(answer.to_dict())
 ```
 
-## Recorded evidence
+## Original v1.0.0 evidence
 
 One frozen original synthetic run, no model calls and USD 0 external inference:
 
@@ -56,6 +71,8 @@ From this repository directory, Python 3.12 or later:
 ```sh
 python -m unittest discover -s tests -v
 python verify_saved.py
+python -m decision.verify_saved
+python -m decision.public_examples --verify
 ```
 
 The independent saved-evidence checker uses no optimization dependency and does

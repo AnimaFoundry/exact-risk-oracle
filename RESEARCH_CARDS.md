@@ -60,7 +60,14 @@ was established. No experiment or new product is claimed for this branch.
 
 ## Next experiment card: decision-level benefit of exact risk
 
-Status: NOT PERFORMED. Before execution, freeze a new energy/calendar generator,
+Status update, 27 October 2026: the original synthetic decision study below is
+now completed in [the v1.1.0 companion](decision/REPORT.md). One of 48 scenarios
+has a tie-robust grid decision loss; 47 do not. The strict conic comparison and
+speed-claim gate did not pass. All outcomes and the frozen protocol are preserved.
+Real deployment validation remains NOT PERFORMED; no new matrix is authorized
+by this card. The prospective plan retained below describes the completed study:
+
+Before execution, freeze a new energy/calendar generator,
 fixed statistical model, same allocation choices and budgets, reusable conic
 baseline, grid rules, and explicit support/negative/inconclusive rules. Compare
 which allocation each evaluator selects and its certified risk, not just their

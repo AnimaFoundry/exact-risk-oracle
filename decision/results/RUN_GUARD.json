@@ -1,0 +1,5 @@
+{
+  "started_utc": "2026-10-27T06:57:43.863842Z",
+  "freeze_sha256": "6755efb2e2fb7a1b4566ac4594d5590921992f7739d21c923668d6974cf9c807",
+  "purpose": "one frozen decision queue; never delete to retry"
+}

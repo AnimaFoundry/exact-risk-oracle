@@ -1,0 +1,30 @@
+{
+  "candidate_sets_independently_enumerated": 48,
+  "certificates_checked": 2259,
+  "checker_revision": "Added finite-status consistency and repeated-grid-witness checks before packaging; unchanged source outcomes; saved replay still PASS.",
+  "checker_sha256": "f58a4b9b29cc7840a66edda10eb03024c24cfe68120a0e6dab98088c01918a6e",
+  "complete_rows": 2259,
+  "conic_comparison_gate": false,
+  "conic_records_rechecked": 2259,
+  "conic_status_counts": {
+    "analytic_zero_d": 42,
+    "optimal": 2205,
+    "optimal_inaccurate": 12
+  },
+  "continuous_optimizer_calls": 0,
+  "decision_result": "TIE_ROBUST_GAIN_OBSERVED",
+  "external_api_usd": 0,
+  "final_check_utc": "2026-10-27T07:02:08.043951Z",
+  "frozen_files_checked": 15,
+  "full_signed_grids_recomputed": 753,
+  "handwritten_checker_mutation_tests": 14,
+  "interpretation": "Independent internal saved-evidence replay; no continuous optimizer rerun, model inference, timing remeasurement or external peer review.",
+  "model_calls": 0,
+  "reviewed_utc": "2026-10-27T07:01:18.171317Z",
+  "rows_sha256": "cc1f257fe51132e9fae36b1f9569b265d2af9bac6d6f572c2c1af1a328609901",
+  "saved_reference_values_and_witnesses_checked": 753,
+  "scenarios": 48,
+  "speed_claim_eligible": false,
+  "status": "PASS",
+  "timings_remeasured": false
+}

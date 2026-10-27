@@ -1,0 +1,68 @@
+{
+  "budget": {
+    "between_case_seconds": 60,
+    "direct_outcome_terms": 170,
+    "external_inference_usd": 0,
+    "face_reference_calls": 2,
+    "model_calls": 0,
+    "oracle_calls": 2
+  },
+  "cases": [
+    {
+      "count": 16,
+      "expected_polynomial": [
+        "1/324",
+        "1/27",
+        "-1/27"
+      ],
+      "expected_worst_risk": "1/81",
+      "id": "public-n16-beta11",
+      "symmetric_pseudocount": 1
+    },
+    {
+      "count": 16,
+      "expected_polynomial": [
+        "1/100",
+        "0",
+        "0"
+      ],
+      "expected_worst_risk": "1/100",
+      "id": "public-n16-beta22",
+      "symmetric_pseudocount": 2
+    }
+  ],
+  "diagnostic_probabilities": [
+    "0",
+    "1/4",
+    "1/2",
+    "3/4",
+    "1"
+  ],
+  "expected_typo_boundary_risk": "1/4",
+  "falsifiers": [
+    "Any exact mismatch rejects example validation.",
+    "A source correction or duplicate report before posting cancels the proposed issue.",
+    "No claim of minimaxity follows solely from a constant-risk calculation."
+  ],
+  "frozen_sha256": {
+    "check_certificate.py": "8c3a8166065597fff9c9dded2e3d573cc44257fe6d2c2a29474e539cfc892139",
+    "decision/public_examples.py": "e21226a62f1edbf46bee6719fddeea483c922de9ba16281403faeaead591556a",
+    "oracle.py": "aa06f55f4ca3360747e753295b3c3718cd2cd119db1416dd6f9d3431a5761a6a",
+    "reference.py": "2d0b29beccfbaffb5b30cb146ffb37babba038bca3f07962a4163aa26d60ea7a"
+  },
+  "frozen_utc": "2026-10-27T06:57:19.262723Z",
+  "interpretation": "Already-public known examples and a documentation erratum, separate from original synthetic sampling-decision inputs. No copying course source or data, no general risk computation for the nonlinear typo.",
+  "source": {
+    "affected_line": 355,
+    "author": "Will Fithian",
+    "commit": "88ca90db1c5fb7d337890a3a59d274d719c551d9",
+    "license": "CC-BY-4.0",
+    "license_url": "https://github.com/berkeley-stat210a/fall-2026/blob/88ca90db1c5fb7d337890a3a59d274d719c551d9/license.qmd",
+    "page": "https://stat210a.berkeley.edu/fall-2026/reader/estimation.html",
+    "repository": "berkeley-stat210a/fall-2026",
+    "source_blob": "7ba655a73de975663f95bab7d476e0e10910b9dd",
+    "source_path": "reader/estimation.qmd",
+    "title": "Statistical models and estimation, UC Berkeley Stat 210A Fall 2026"
+  },
+  "version": 1
+}
